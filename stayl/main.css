@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;600;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  font-family: 'Livvic'serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+ background-color: #014E56;
+}
+.continer{
+  position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+  position: relative;
+}
+.head-list{
+  padding: 73px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #014E56;
+}
+.woo{
+  background-image: url("../img/1.1.png"), url("../img/1.2.svg");
+  background-repeat: no-repeat;
+  background-position: left calc(70% - 30%),
+  right calc(50% - 400px) bottom;
+  background-size: 200px, 230px;
+}
+.head-logo-list{
+  display: flex;  
+  align-items: center;
+}
+.li-link{
+  margin-left: 20px;
+ color: white;
+}
+.li-link:hover{
+  color: #F67E7E;
+}
+.head-ul{
+  display: flex;
+  align-items: center ;
+}
+.logo-1{
+  margin-right: 20px;
+}
+.head-button{
+  padding: 9px 32px;
+  color: white;
+  border: solid 2px white;
+  border-radius: 23px;
+}
+.head-button:hover{
+  border: solid 2px #014E56;
+  background-color: white;
+  color: #014E56;
+}
+.meny{
+  display: none;
+  border: none;
+  background-color:transparent;
+  cursor: pointer;
+}
+.main-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 145px 120px;
+}
+.sarlavha-1{ 
+max-width: 500px;
+font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 85px;
+line-height: 95px;
+color: #FFFFFF;
+}
+.color-styal{
+  color: #F67E7E;
+}
+.main-1-section{
+  max-width: 400px;
+
+}
+.styal{
+ margin-bottom: 30px;
+ max-width: 80px;
+ height: 3px;
+ border: none;
+ background-color: #F67E7E;
+}
+.main-2{
+  background-color: #012F34;
+}
+.main-list-2{
+  padding: 160px 145px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.title{
+  max-width: 590px;
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+color: #FFFFFF;
+}
+.styal-2{
+  margin-left: 0px;
+  margin-bottom: 30px;
+  max-width: 50px;
+  height: 3px;
+  border: none;
+  background-color: #F67E7E;
+}
+.main-2-li{
+  padding: 8px 8px;
+  display: flex;
+  align-items: center;
+  max-width: 655px;
+}
+.span-1{
+  margin-left: 10px;
+}
+h4{
+  color: #F67E7E;
+}
+.main-3-list{
+  padding: 50px 145px;
+}
+.sarlavha-2{
+  margin-left: 50px;
+  max-width: 800px;
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+}
+.section-1{
+  margin-left: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.porg-1{
+  max-width: 350px;
+  text-align: center;
+  padding: 30px 20px; 
+}
+strong{
+  color: #37bdcc;
+}
+.bookmark{
+  margin-bottom: 10px;
+  font-family: 'Livvic';
+font-style: italic;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+}
+.main-4{
+  background-color: #F67E7E;
+}
+.colos{
+  background-image: url("../img/Group\ 8.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 300px;
+}
+.main-cotact{
+  padding: 80px 145px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titel-2{
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+color: #012F34;
+}
+.us{
+  padding: 9px 32px;
+  color:#012F34;
+  border: solid 2px #012F34;
+  border-radius: 23px;
+  background-color: #F67E7E;
+}
+.us:hover{
+  background-color: #012F34;
+  color: #F67E7E;
+  border: solid 2px #F67E7E;
+}
+footer{
+  background-color: #012F34;
+}
+.footer-site{
+  padding: 30px 145px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo{
+  display: flex;
+  align-items: center;
+}
+.footer-pog{
+  margin-left: 30px;
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+.footer-ul{
+  margin-left: 180px;
+  display: flex;
+  align-items: center; 
+}
+.fote{
+  padding-left: 8px;
+}
+.porg{
+  padding-top: 30px;
+
+}
+@media only screen and (max-width:900px){
+  .head-list{
+    padding: 20px 50px;
+  }
+  .main-list{
+    display: block;
+    padding: 20px   45px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+  }
+  .sarlavha-1{
+      font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    margin: auto;
+    padding: auto
+  }
+  .text-1{
+    font-size: 13px;
+  }
+  .woo{
+    background-image:  url("../img/1.2.svg");
+    background-repeat: no-repeat;
+    background-position:
+    right calc(30% - 0%) bottom;
+    background-size: 200px, 230px;
+  }
+  .styal{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+  }
+  .main-1-section{
+    margin: auto;
+    padding: auto;
+  }
+  .main-list-2{
+    padding: 60px 50px;
+    display: block;
+    margin: auto;
+    padding: auto;
+  }
+  .section-1{
+    display: block;
+    margin: auto;
+    padding: auto;
+  }
+  .porg-1{
+    margin: auto;
+    padding: auto;
+  }
+  .main-3-list{
+    padding: 40px 50px;
+  }
+  .titel-2{
+    font-size: 28px;
+  }
+  .us{
+      padding: 5px 22px;
+      color:#012F34;
+      border: solid 1px #012F34;
+      border-radius: 23px;
+      background-color: #F67E7E;
+  }
+  .footer-site{
+    display: block;
+    padding: 20px 180px;
+    text-align: center;
+  }
+  .footer-logo{
+    display: block;
+  }
+  .footer-ul{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .footer-pog{
+    display: block;
+  }
+}
+@media only screen and (max-width:750px){
+  .head-ul{
+   display: none;
+  }
+  .sarlavha-1{
+    font-size: 25px;
+    text-align: center;
+  }
+  .text-1{
+  font-size: 8px;
+  }
+  .head-button{
+    display: none;
+  }
+  .meny{
+    display: inline;
+  }
+  .title{
+     font-size: 22px;
+     text-align: center;
+   }
+   .main-2-li{
+    font-size: 12px;
+   }
+  .main-list{
+    display: block;
+    padding: 20px 145px;
+  }
+  .main-3-list{
+    padding: 20px 0px;
+  }
+  .sarlavha-2{
+    font-size: 22px;
+  }
+  .porg-1{
+    font-size: 10px;
+  }
+  .main-cotact{
+    padding: 20px 20px;
+    display: block;
+  }
+  .main-cotact{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+  }
+  .titel-2{
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+  .footer-site{
+    display: block;
+    padding: 0;
+  }
+  .footer-logo{
+    display: block;
+  }
+  .footer-ul{
+    text-align: center;
+  }
+}
